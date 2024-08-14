@@ -32,7 +32,7 @@ export default function Card({ id, text, left, top, moveCard, openModal }) {
         padding: 10,
         overflow: "hidden",
       }}
-      ref={drag}  // Attach drag ref directly to the ResizableBox
+      ref={drag}  
     >
       <div>
         <p>{text.slice(0, 50)}...</p>
