@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { useDrop } from 'react-dnd';
 import Modal from 'react-modal';
 import Arrow from 'react-arrow';
-import Card from './Card';  // Import the Card component
+import Card from './Card';  
 import { ItemTypes } from '../constants/ItemTypes';
 
 export default function Canvas() {
@@ -61,7 +61,7 @@ export default function Canvas() {
             openModal={openModal}
           />
         ))}
-        {/* Example of connecting two cards with an arrow */}
+       
         {cards.length > 1 && (
           <Arrow
             angle={45}
